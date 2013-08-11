@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = EveApi::VERSION
   gem.authors       = ["Femaref"]
   gem.email         = ["femaref@googlemail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Generic way to query the eve online api }
+  gem.summary       = %q{Generic way to query the eve online api }
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
