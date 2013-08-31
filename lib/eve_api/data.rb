@@ -20,6 +20,10 @@ module EveApi
       def inspect
         "<# EveApi::Data::Generic keys: #{keys} >"
       end
+      
+      def to_hash
+        @data.dup
+      end
     end
   
     class Result < Generic
@@ -41,6 +45,10 @@ module EveApi
     
       def initialize(rows)          
         @rows = rows
+      end
+      
+      def to_a
+        @rows.dup
       end
     end
     
