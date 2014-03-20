@@ -2,9 +2,11 @@ require 'eve_api/version'
 require 'addressable/uri'
 require 'faraday'
 require 'nokogiri'
+require 'json'
 
 module EveApi
 
+  autoload :Crest, 'eve_api/crest.rb'
   autoload :Api, 'eve_api/api.rb'
   autoload :ScopedApi, 'eve_api/scoped_api.rb'
   
